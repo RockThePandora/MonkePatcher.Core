@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     public interface IUserPrompter
     {

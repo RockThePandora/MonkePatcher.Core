@@ -1,20 +1,15 @@
 ﻿using Newtonsoft.Json;
-using QuestPatcher.Core.Models;
+using MonkePatcher.Core.Models;
 using Serilog.Core;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
 using QuestPatcher.Axml;
 
-namespace QuestPatcher.Core.Patching
+namespace MonkePatcher.Core.Patching
 {
     /// <summary>
     /// Handles checking if the selected app is modded, alongside patching it if not

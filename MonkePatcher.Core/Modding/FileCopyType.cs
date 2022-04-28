@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public class FileCopyType : INotifyPropertyChanged
     {

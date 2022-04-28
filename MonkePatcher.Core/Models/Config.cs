@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace QuestPatcher.Core.Models
+namespace MonkePatcher.Core.Models
 {
     public class Config : INotifyPropertyChanged
     {

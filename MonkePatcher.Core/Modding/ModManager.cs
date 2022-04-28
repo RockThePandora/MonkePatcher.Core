@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using QuestPatcher.Core.Models;
+using MonkePatcher.Core.Models;
 using Serilog.Core;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     // TODO: Upgrade from old mod system
     // TODO: And old old mod system notice

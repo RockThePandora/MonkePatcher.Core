@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using QuestPatcher.Core.Models;
+using MonkePatcher.Core.Models;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public class OtherFilesManager : INotifyPropertyChanged
     {
@@ -48,7 +48,7 @@ namespace QuestPatcher.Core.Modding
 
             // Load the file copy paths from resources
             // I put them in there to allow for easier changing, although it makes things a little messier in here
-            using Stream? pathsStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("QuestPatcher.Core.Resources.file-copy-paths.json");
+            using Stream? pathsStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MonkePatcher.Core.Resources.file-copy-paths.json");
             Debug.Assert(pathsStream != null);
 
             using TextReader textReader = new StreamReader(pathsStream);

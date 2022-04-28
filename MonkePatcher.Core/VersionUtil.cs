@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Utilities for handling versions

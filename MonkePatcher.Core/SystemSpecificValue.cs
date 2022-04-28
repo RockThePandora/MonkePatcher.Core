@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Thrown if trying to get the value of a OS dependent value when one is not configured for the OS.

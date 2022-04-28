@@ -1,15 +1,9 @@
-﻿
-using Serilog.Core;
-using System;
-using System.Collections.Generic;
+﻿using Serilog.Core;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.IO;
-using System.Threading.Tasks;
-using System.Linq;
 using System.Text;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Thrown whenever the standard or error output of ADB contains "failed" or "error"

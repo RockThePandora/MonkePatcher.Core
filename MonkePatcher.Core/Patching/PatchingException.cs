@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuestPatcher.Core.Patching
+namespace MonkePatcher.Core.Patching
 {
     public class PatchingException : Exception
     {

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     [JsonConverter(typeof(IMod))]
     public class ModConverter : JsonConverter<IMod>

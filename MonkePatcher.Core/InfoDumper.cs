@@ -4,12 +4,12 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
-using QuestPatcher.Core.Modding;
-using QuestPatcher.Core.Models;
-using QuestPatcher.Core.Patching;
+using MonkePatcher.Core.Modding;
+using MonkePatcher.Core.Models;
+using MonkePatcher.Core.Patching;
 using Serilog.Core;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Used to create a ZIP file containing a bunch of info about the current state of QuestPatcher and mods.

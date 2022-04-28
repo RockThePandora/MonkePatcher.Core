@@ -1,4 +1,4 @@
-﻿namespace QuestPatcher.Core.Patching
+﻿namespace MonkePatcher.Core.Patching
 {
     /// <summary>
     /// Represents a part of the patching process

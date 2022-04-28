@@ -3,7 +3,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Threading.Tasks;
 
-namespace QuestPatcher.Core.Patching
+namespace MonkePatcher.Core.Patching
 {
     public static class ZipExtensions
     {

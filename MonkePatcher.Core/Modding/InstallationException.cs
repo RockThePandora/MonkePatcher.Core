@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public class InstallationException : Exception
     {

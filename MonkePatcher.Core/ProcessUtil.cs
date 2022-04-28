@@ -2,7 +2,7 @@
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Represents the result of running a process.

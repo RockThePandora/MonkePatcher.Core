@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     public class TempFile : IDisposable
     {

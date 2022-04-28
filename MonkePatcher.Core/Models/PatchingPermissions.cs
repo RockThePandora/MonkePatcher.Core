@@ -1,5 +1,5 @@
 ﻿
-namespace QuestPatcher.Core.Models
+namespace MonkePatcher.Core.Models
 {
     /// <summary>
     /// Specifies which permissions will be added to the APK during patching

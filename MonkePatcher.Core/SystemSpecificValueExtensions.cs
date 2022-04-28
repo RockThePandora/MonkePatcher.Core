@@ -1,4 +1,4 @@
-﻿namespace QuestPatcher.Core
+﻿namespace MonkePatcher.Core
 {
     public static class SystemSpecificValueExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json.Converters;
 using System;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     /// <summary>
     /// Used to pass in the extra parameters to a FileCopyType

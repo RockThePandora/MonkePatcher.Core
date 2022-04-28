@@ -1,13 +1,10 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
+﻿using System.ComponentModel;
 using System.Net;
 using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
 using QuestPatcher.QMod;
 using Serilog.Core;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     // ReSharper disable once InconsistentNaming
     public class QPMod : IMod

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public abstract class ConfigModProvider : JsonConverter<IMod>, IModProvider
     {

@@ -23,14 +23,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Asn1.Cms;
 using Org.BouncyCastle.Asn1.X509;
@@ -44,10 +39,10 @@ using Org.BouncyCastle.Utilities;
 using Org.BouncyCastle.Utilities.IO.Pem;
 using Org.BouncyCastle.X509;
 using Org.BouncyCastle.X509.Store;
-using QuestPatcher.Core.Patching;
+using MonkePatcher.Core.Patching;
 using PemReader = Org.BouncyCastle.OpenSsl.PemReader;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     public class ApkSigner
     {

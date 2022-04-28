@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
-using QuestPatcher.Core.Models;
+using MonkePatcher.Core.Models;
 using QuestPatcher.QMod;
 using Serilog.Core;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public class QModProvider : ConfigModProvider
     {
@@ -48,7 +43,7 @@ namespace QuestPatcher.Core.Modding
         public override async Task<IMod> LoadFromFile(string modPath)
         {
             await using Stream modStream = File.OpenRead(modPath);
-            await using QMod.QMod qmod = await QMod.QMod.ParseAsync(modStream);
+            await using QMod qmod = await QMod.ParseAsync(modStream);
             
             // Check that the package ID is correct. We don't want people installing Beat Saber mods on Gorilla Tag!
             _logger.Information($"Mod ID: {qmod.Id}, Version: {qmod.Version}, Is Library: {qmod.IsLibrary}");

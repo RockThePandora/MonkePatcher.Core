@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
-using QuestPatcher.Core.Models;
+using MonkePatcher.Core.Models;
 using Serilog.Core;
 using System;
 using System.IO;
 using System.Reflection;
 using Newtonsoft.Json.Serialization;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     public class ConfigManager
     {
@@ -78,7 +78,7 @@ namespace QuestPatcher.Core
             if (File.Exists(ConfigPath) && !overwrite) { return; }
             
             _logger.Debug("Saving default config file . . .");
-            using Stream? resourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("QuestPatcher.Core.Resources.default-config.json");
+            using Stream? resourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("MonkePatcher.Core.Resources.default-config.json");
             if(resourceStream == null)
             {
                 throw new NullReferenceException("Unable to find default-config.json in resources!");

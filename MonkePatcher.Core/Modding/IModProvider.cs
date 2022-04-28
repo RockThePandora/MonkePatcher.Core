@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public interface IModProvider
     {

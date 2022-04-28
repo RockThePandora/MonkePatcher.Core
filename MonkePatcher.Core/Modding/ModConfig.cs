@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace QuestPatcher.Core.Modding
+namespace MonkePatcher.Core.Modding
 {
     public class ModConfig
     {

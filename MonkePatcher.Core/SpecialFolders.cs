@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace QuestPatcher.Core
+namespace MonkePatcher.Core
 {
     /// <summary>
     /// Manages where QuestPatcher application data, and temporary files, are stored.
